@@ -31,7 +31,7 @@ def main():
     next_words = predictor.predict(prefix)
 
     if next_words:
-        print("sudhanshu: Next word predictions for prefix '{}':".format(' '.join(prefix)))
+        print("Kundan: Next word predictions for prefix '{}':".format(' '.join(prefix)))
         print(next_words)
     else:
         print("No predictions available for the given prefix.")

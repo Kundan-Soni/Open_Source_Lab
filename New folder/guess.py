@@ -4,7 +4,7 @@ def guessing_number_game():
     number = random.randint(1, 100)  # Generate a random number between 1 and 100
     K = 5  # Number of trials
 
-    print("sudhanshu: A number is chosen between 1 to 100.")
+    print("Kundan: A number is chosen between 1 to 100.")
     print("Guess the number within 5 trials.")
 
     for i in range(K):

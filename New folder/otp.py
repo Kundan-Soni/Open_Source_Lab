@@ -18,7 +18,7 @@ def main():
 
     # Generate OTP
     otp = otp_generator.generate_otp()
-    print("sudhanshu: Generated OTP:", otp)
+    print("Kundan: Generated OTP:", otp)
 
     # Simulate user input
     user_input = input("Enter OTP for verification: ")

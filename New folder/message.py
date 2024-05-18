@@ -25,7 +25,7 @@ def main():
     shift = 3
 
     encrypted_message = encrypt(message, shift)
-    print("sudhanshu: Encrypted message:", encrypted_message)
+    print("Kundan: Encrypted message:", encrypted_message)
 
     decrypted_message = decrypt(encrypted_message, shift)
     print("Decrypted message:", decrypted_message)
